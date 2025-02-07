@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* header */
+.my-continar {
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-parent {
+  width: 80%;
+  /* height: 50px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 1rem; */
+}
+@media (max-width: 950px) {
+  .my-parent {
+    width: 100%;
+    border: 1px solid red;
+  }
+}
+@media (max-width: 870px) {
+  .my-parent {
+    display: none;
+  }
+}
+.my-navba1 {
+  /* height: 45px; */
+  width: 700px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-navba2 {
+  /* height: 45px; */
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-navul1 {
+  width: 700px;
+  /* height: 35px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-navul2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+li {
+  list-style: none;
+}
+li > a,
+.my-nava {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+}
+.font1 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.font2 {
+  font-family: "Roboto Condensed", serif;
+}
+.hoveran:hover {
+  color: orange;
+}
+.min870 {
+  display: none;
+}
+@media (max-width: 870px) {
+  .no {
+    display: none;
+  }
+  .min870 {
+    display: none;
+  }
+}
